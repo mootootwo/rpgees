@@ -8,7 +8,7 @@ Drop 2df on a one-dimensional board to determine starting state, and shepherd r@
 [#] blocking space
 [@] r@bbit
 [0] hole
- 
+
 [z] any charge ( [+] or [-] ) (multiple [z] in an example will be like-charges)
 [s] opposite charge of [z] (conditional, always the inverse of what [z] is in any given example)
 [?] any space (empty or non-empty)
@@ -32,12 +32,12 @@ Postpend [0] to the board:
 ## Each Turn (for 30 turns):
 
 Evaluate each set of three [?] and record a new object [\*] for the center space, on a new line, according to the formulas below, presented in this format:
-	
+
 	 Input [?][?][?]
 	Result    [*]
 
 (see Wolfram's one-dimensional cellular automaton for more examples of this evaluation process)
- 
+
 All rule sets are symmetric such that [ ][ ][z] is evaluated in the same way as [z][ ][ ], or [?][z][0] is evaluated in the same way as [0][z][?].
 
 Once per turn, you may do one of:
@@ -65,31 +65,31 @@ Roll 4dF and spend up to one per turn:
 
 	 Input [z][ ][ ] input
 	Result    [z]
- 
+
 [z] collides with [s] forming [#]
 
 	 Input [z][s][?] input
 	    or [z][ ][s]
 	Result    [#]
- 
+
 [z] collides with [#] vanishing
 
 	 Input [z][z][#]
 	    or [ ][z][#]
 	Result    [ ]
- 
+
 [z] collides with [0] vanishing
 
 	 Input [?][z][0]
 	Result    [ ]
- 
+
 [z] collides with [z] vanishing
 
 	 Input [z][z][z]
 	    or [z][z][ ]
 	    or [z][ ][z]
 	Result    [ ]
- 
+
 [z] does not persist
 
 	Input [ ][z][ ]
@@ -99,7 +99,7 @@ Roll 4dF and spend up to one per turn:
 
 	Input [?][#][?]
 	Result   [#]
- 
+
 [@] behaves as a charge
 
 	Input [@][ ][ ]
