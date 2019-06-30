@@ -49,7 +49,7 @@ Once per turn, you may do one of:
 
 Score +1:
 
-	When [@] vanishes into leftmost [0]
+	When [@] vanishes into rightmost [0]
 
 ### Optional Rule:
 
