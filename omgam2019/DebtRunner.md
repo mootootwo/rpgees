@@ -1,4 +1,4 @@
-# Debtrunner
+# DebtRunner
 
 Choose an amount of principal funds `(P)` to borrow, and amortize at a percentage rate `(i)` such that `i=[-10*tanh(0.5*log10(P)-2)+12]`
 
