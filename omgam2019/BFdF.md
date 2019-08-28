@@ -19,22 +19,24 @@ The less likely outcomes are
 Cast a more detailed divining of events by random-walking two more dF from which ever outcome was found above
 
     [+][_]  Opportunity
-    a chance for something beneficial, received at some cost
+    a chance for something beneficial, received at some cost.  Opportunities are not guarantees and are not freely given, they must be invested in in some way, and actively pursued to completion
+    
         [+]  Material
-            [+]  A chance to gain a thing via a non-material exchange.  e.g., a service for a payment
-            [_]  
-            [-]  A chance to invest an asset towards a long-term benefit
+            [+]  Gain a thing via a non-material exchange.  e.g., a service for a payment
+            [_]  Exchange some material asset for a different one
+            [-]  Invest an asset towards a long-term benefit, be it material benefit or social
         [_]  Advancement
-            [+]  On Path / Towards Goal
-            [_]  Personal
-            [-]  Social
+            [+]  Spend something to advance on a Path or towards a Goal
+            [_]  Spend something to improve something internal and personal
+            [-]  Spend something to improve an existing social status or relationship
         [-]  Social
-            [+]  New Contact????
-            [_]  new status
-            [-]  relieve a malus
+            [+]  Gain a new connection at some expense. Perhaps time, effort, or status
+            [_]  Gain a new status at some cost -- either material, social, or emotional
+            [-]  relieve a malus upon your character at some price
 
     [+][-]  Challenge
     a thing to be overcome
+    
         [+]  External / Passive
             [+]  Terrain, Architecture, or Distance
             [_]  Social obstacle (class, citizenship, membership)
@@ -50,21 +52,23 @@ Cast a more detailed divining of events by random-walking two more dF from which
 
     [_][-]  Choice
     a crossroads between diverging paths
-        [+]  Between .. friends?  people? Something secondary to the current activity
-            [+]  
-            [_]  
+    
+        [+]  People
+            [+]  Allies or friends with different goals, and you can not assist with both
+            [_]  Acquaintances with differing needs
+            [-]  Rivals with ...
+        [_]  Risks
+            [+]  multiple new risks in front of an existing goal
+            [_]  A new potential risk in approaching a challenge, but abandoning progress on your current approach
             [-]  
-        [_]  Crossroad.. Between risks, opportunity to solve current challenge in another way
-            [+]  
-            [_]  
-            [-]  
-        [-]  Between Goals
-            [+]  
-            [_]  
-            [-]  
+        [-]  Goals
+            [+]  multiple new goals
+            [_]  different path to existing goal
+            [-]  the chance to abandon a goal in exchange for some benefit
 
     [+][+]  Beginning
     an opening for something new
+    
         [+]  Relationship
             [+]  
             [_]  
@@ -80,6 +84,7 @@ Cast a more detailed divining of events by random-walking two more dF from which
 
     [_][_]  Surprise
     An unexpected happenstance, either new or the discovery of one previously hidden
+    
         [+]  Light Hearted
             [+]  
             [_]  
@@ -95,6 +100,7 @@ Cast a more detailed divining of events by random-walking two more dF from which
 
     [-][-]  Completion
     An ending
+    
         [+]  Activity or Opportunity
             [+]  A path being followed reaches an end
             [_]  The window to seize an opportunity closes
