@@ -56,11 +56,11 @@ Cast a more detailed divining of events by random-walking two more dF from which
         [+]  People
             [+]  Allies or friends with different goals, and you can not assist with both
             [_]  Acquaintances with differing needs
-            [-]  Rivals with ...
+            [-]  Rivals with different costs or complications
         [_]  Risks
-            [+]  multiple new risks in front of an existing goal
-            [_]  A new potential risk in approaching a challenge, but abandoning progress on your current approach
-            [-]  
+            [+]  Choice of multiple additional risks in front of an existing goal
+            [_]  A way to approach an existing challenge with a new risk, but abandoning progress on your current approach
+            [-]  A risk that, if taken, might divert you to a different path or goal
         [-]  Goals
             [+]  multiple new goals
             [_]  different path to existing goal
@@ -70,33 +70,33 @@ Cast a more detailed divining of events by random-walking two more dF from which
     an opening for something new
     
         [+]  Relationship
-            [+]  
-            [_]  
-            [-]  
+            [+]  Friend
+            [_]  Acquaintance
+            [-]  Rival
         [_]  Story Arc
-            [+]  
-            [_]  
-            [-]  
+            [+]  A friend in need
+            [_]  An acquaintance with a request
+            [-]  A rival at odds
         [-]  Change
             [+]  Goals
             [_]  Self
-            [-]  
+            [-]  Environment
 
     [_][_]  Surprise
     An unexpected happenstance, either new or the discovery of one previously hidden
     
         [+]  Light Hearted
-            [+]  
-            [_]  
-            [-]  
+            [+]  unexpected favorable conditions
+            [_]  a gift or good news
+            [-]  poop
         [_]  Inconvenient
-            [+]  
-            [_]  
-            [-]  
+            [+]  Material loss
+            [_]  Revelation about another's character
+            [-]  Distraction from your task or goal
         [-]  Conspiratorial
-            [+]  
-            [_]  
-            [-]  
+            [+]  A plot of your rivals
+            [_]  Alternate plans you were previously excluded from
+            [-]  Betrayal by friends
 
     [-][-]  Completion
     An ending
@@ -104,12 +104,14 @@ Cast a more detailed divining of events by random-walking two more dF from which
         [+]  Activity or Opportunity
             [+]  A path being followed reaches an end
             [_]  The window to seize an opportunity closes
-            [-]  
+            [-]  An unfollowed path is completed by others, or by other events
         [_]  Task or Goal
-            [+]  
-            [_]  
-            [-]  
+            [+]  Ends conclusively
+            [_]  Might be revisited in the future
+            [-]  Leads to new opportunities
         [-]  Parting Ways
-            [+]  an idea
-            [_]  a companion
-            [-]  
+            [+]  An idea
+            [_]  A companion
+            [-]  An object
+
+Continue describing characters' actions in light of the divined developments, until a satisfactory completion is reached.
