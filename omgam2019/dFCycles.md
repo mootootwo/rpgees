@@ -8,9 +8,9 @@ Generate the cyclical paths between the Start and End node
 
 Working from a 7x5 grid of cells: 
 
-Place the Start node [S] in the left-most (1st) column, middle (3rd) row
+Place the Start node `[S]` in the left-most (1st) column, middle (3rd) row
 
-Place the End node [E] in the right-most (7th) column, middle (3rd) row
+Place the End node `[E]` in the right-most (7th) column, middle (3rd) row
 
     |---|---|---|---|---|---|---|
     
@@ -42,7 +42,7 @@ move one place right, and roll 2dF and evaluate rules in order
 
 ## Generate path features
 
-for any [+], advance the path one place right
+for any `[+]`, advance the path one place right
 
     +   +
     
@@ -50,7 +50,7 @@ for any [+], advance the path one place right
     
     +   +
 
-for [+][+], advance the path an additional place right
+for `[+][+]`, advance the path an additional place right
 
     +   +   +
     
@@ -58,7 +58,7 @@ for [+][+], advance the path an additional place right
     
     +   +   +
 
-for any [_], place a node 0 in the current cell cell
+for any `[_]`, place a node `0` in the current cell cell
 
     +   +
     
@@ -66,7 +66,7 @@ for any [_], place a node 0 in the current cell cell
     
     +   +
 
-for [_][_], place a major ! node in the current cell
+for `[_][_]`, place a major `!` node in the current cell
 
     +   +
     
@@ -74,7 +74,7 @@ for [_][_], place a major ! node in the current cell
     
     +   +
 
-for any [-] or [-][-], from the middle (3rd) row, branch the path to the rows above and below
+for any `[-]` or `[-][-]`, from the middle (3rd) row, branch the path to the rows above and below
 
     +   +
       |
@@ -82,7 +82,7 @@ for any [-] or [-][-], from the middle (3rd) row, branch the path to the rows ab
       |
     +   +
 
-for any [-] or [-][-] in the top (5th) or bottom-most (1st) row, bend the path inwards (towards the middle row) instead of branching it
+for any `[-]` or `[-][-]` in the top (5th) or bottom-most (1st) row, bend the path inwards (towards the middle row) instead of branching it
 
     |---|        +   +
                    |
@@ -90,7 +90,7 @@ for any [-] or [-][-] in the top (5th) or bottom-most (1st) row, bend the path i
       | 
     +   +        |---|
 
-for any [-] in rows 2 or 4, bend the path inwards to the middle row
+for any `[-]` in rows 2 or 4, bend the path inwards to the middle row
 
     +   +        +   +
                    |
@@ -99,7 +99,7 @@ for any [-] in rows 2 or 4, bend the path inwards to the middle row
     +   +        +   +
 
 
-for any [-][-] in rows 2 or 4, branch the path to the rows above and below
+for any `[-][-]` in rows 2 or 4, branch the path to the rows above and below
 
     +   +
       |
@@ -109,7 +109,7 @@ for any [-][-] in rows 2 or 4, branch the path to the rows above and below
  
 After evaluating the dice, advance the path one column to the right and roll 2dF.  
 Repeat the evaluation process.
-When a path reaches the 7th column, connect it to the End node [E] which complete this path
+When a path reaches the 7th column, connect it to the End node `[E]` which complete this path
 
 ## Complete additional paths
 
