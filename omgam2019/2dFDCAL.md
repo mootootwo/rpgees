@@ -3,42 +3,42 @@ Drop 2df on a one-dimensional board to determine starting state, and shepherd r@
 
 ## Key:
 
-[+] positive charge
-[-] negative charge
-[#] blocking space
-[@] r@bbit
-[0] hole
+- `[+]` positive charge
+- `[-]` negative charge
+- `[#]` blocking space
+- `[@]` r@bbit
+- `[0]` h0le
 
-[z] any charge ( [+] or [-] ) (multiple [z] in an example will be like-charges)
-[s] opposite charge of [z] (conditional, always the inverse of what [z] is in any given example)
-[?] any space (empty or non-empty)
+- `[z]` any charge ( `[+]` or `[-]` ) (multiple `[z]` in an example will be like-charges)
+- `[s]` opposite charge of `[z]` (conditional, always the inverse of what `[z]` is in any given example)
+- `[?]` any space (empty or non-empty)
 
 ## Setup gamespace:
 
-Chart out a game board with 8 empty spaces [ ]:
+Chart out a game board with 8 empty spaces `[ ]`:
 
 	      [ ][ ][ ][ ][ ][ ][ ][ ]
 
-Drop 2dF and mark [+], [-], or [#] in the spaces where they land
+Drop 2dF and mark `[+]`, `[-]`, or `[#]` in the spaces where they land
 
-Prepend [0][@] to the board:
+Prepend `[0][@]` to the board:
 
 	[0][@][ ][ ][ ][ ][ ][ ][ ][ ]
 
-Postpend [0] to the board:
+Postpend `[0]` to the board:
 
 	[0][@][ ][ ][ ][ ][ ][ ][ ][ ][0]
 
 ## Each Turn (for 30 turns):
 
-Evaluate each set of three [?] and record a new object [\*] for the center space, on a new line, according to the formulas below, presented in this format:
+Evaluate each set of three `[?]` and record a new object `[*]` for the center space, on a new line, according to the formulas below, presented in this format:
 
 	 Input [?][?][?]
 	Result    [*]
 
 (see Wolfram's one-dimensional cellular automaton for more examples of this evaluation process)
 
-All rule sets are symmetric such that [ ][ ][z] is evaluated in the same way as [z][ ][ ], or [?][z][0] is evaluated in the same way as [0][z][?].
+All rule sets are symmetric such that `[ ][ ][z]` is evaluated in the same way as `[z][ ][ ]`, or `[?][z][0]` is evaluated in the same way as `[0][z][?]`.
 
 Once per turn, you may do one of:
 	
@@ -61,46 +61,46 @@ Roll 4dF and spend up to one per turn:
 
 ### Evaluation Sets:
 
-[z] grows one square in either direction
+`[z]` grows one square in either direction
 
 	 Input [z][ ][ ] input
 	Result    [z]
 
-[z] collides with [s] forming [#]
+`[z]` collides with `[s]` forming `[#]`
 
 	 Input [z][s][?] input
 	    or [z][ ][s]
 	Result    [#]
 
-[z] collides with [#] vanishing
+`[z]` collides with `[#]` vanishing
 
 	 Input [z][z][#]
 	    or [ ][z][#]
 	Result    [ ]
 
-[z] collides with [0] vanishing
+`[z]` collides with `[0]` vanishing
 
 	 Input [?][z][0]
 	Result    [ ]
 
-[z] collides with [z] vanishing
+`[z]` collides with `[z]` vanishing
 
 	 Input [z][z][z]
 	    or [z][z][ ]
 	    or [z][ ][z]
 	Result    [ ]
 
-[z] does not persist
+`[z]` does not persist
 
 	Input [ ][z][ ]
 	Result   [ ]
 
-[#] persists
+`[#]` persists
 
 	Input [?][#][?]
 	Result   [#]
 
-[@] behaves as a charge
+`[@]` behaves as a charge
 
 	Input [@][ ][ ]
 	   or [@][ ][#]
