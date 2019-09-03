@@ -115,3 +115,5 @@ Cast a more detailed divining of events by random-walking two more dF from which
             [-]  An object
 
 Continue describing characters' actions in light of the divined developments, until a satisfactory completion is reached.
+
+[BFdF](https://mootootwo.github.io/rpgees/omgam2019/BFdF) by [Luke Miller](https://twitter.com/mootootwo) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
