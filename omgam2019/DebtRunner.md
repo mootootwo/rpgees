@@ -54,3 +54,5 @@ An investment made on turn 1 with duration 1 will be paid at the start of turn 2
 If on any turn a payment is not made in full, add `[1.5 * the missed amount]` to the next turn's payment
 
 Score is total liquid funds after 30 turns, minus any outstanding payments (which might exist due to missed payments)
+
+[DebtRunner](https://mootootwo.github.io/rpgees/omgam2019/DebtRunner) by [Luke Miller](https://twitter.com/mootootwo) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
