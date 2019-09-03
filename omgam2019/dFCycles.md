@@ -155,3 +155,5 @@ Add features to paths
 - Gambits
 - Rewards
 - Tools
+
+[dFCycles](https://mootootwo.github.io/rpgees/omgam2019/dFCycles) by [Luke Miller](https://twitter.com/mootootwo) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
