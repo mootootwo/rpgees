@@ -24,7 +24,7 @@ Noto Sans by Google, licensed under Apache 2.0
 
 dF — Fudge die.  Six sided dice with equal sides labeled `[+]` ,  `[_]` , and  `[-]`
 Endurance —  Each `<<>>` represents 5 gigaseconds of lifetime or travel capability for your starship.
-Cultural Artifacts —  Each [[] represents an object or information set produced by a culture.  It may be fungible or used to influence the direction of other cultures.
+Cultural Artifacts —  Each `[[]]` represents an object or information set produced by a culture.  It may be fungible or used to influence the direction of other cultures.
 Gigasecond —  A unit of time close to 30 years, or a unit of distance (light-gigaseconds) close to 10 parsecs.
 
 ## Map Setup
@@ -37,17 +37,17 @@ On `[+]` there is an inhabited world present
 
 For each world, sum 2dF to find the cultural era.
 
-    ++  transcendent  ( level 4 )
-    +   networked     ( level 3 )
-    0   or global     ( level 2 )
-    -   regional      ( level 1 )
-    --  local         ( level 0 )
+    [+][+]           transcendent  ( level 4 )
+    [+][_]           networked     ( level 3 )
+    [_][_] or [+][-] global        ( level 2 )
+    [-][_]           regional      ( level 1 )
+    [-][-]           local         ( level 0 )
 
 Roll 1dF for velocity
 
-    +	>	advancing
-    0	0	stable
-    -	<	declining
+    [+]	>	advancing
+    [_]	0	stable
+    [-]	<	declining
 
 ## Starting conditions
 
@@ -57,7 +57,7 @@ Add a number of cultural artifacts to your ship’s hold, equal to the level of 
 
 ## Light Lag
 
-For every 5 gigaseconds distance from your ship, there is equal lag to a world.  Track the light lag for each world in the `[—gigaseconds—]` field.
+For every 5 gigaseconds distance from your ship, there is equal lag to a world.  Track the light lag for each world in the `[gigaseconds]` field.
 
 ## Turn Flow
 
@@ -88,19 +88,19 @@ Use the same process to advance the history of other worlds,  up to the current 
 
 ### Collect cultural artifacts
 
-Add one cultural artifact `(__)` to your ship’s hold for every cultural level of the local world
+Add one cultural artifact `[[]]` to your ship’s hold for every cultural level of the local world
 
 ### Spend artifacts to effect cultural level and velocity
 
-You may spend one artifact `(__)` to increase or decrease the current cultural era by 1 level.
+You may spend one artifact `[[]]` to increase or decrease the current cultural era by 1 level.
 
-You may spend one artifact `(__)` to set the velocity, otherwise  the latest progress roll sets the current velocity ( [+] for Advancing, [_]   for Stable,    [-]  for Declining )
+You may spend one artifact `[[]]` to set the velocity, otherwise  the latest progress roll sets the current velocity ( `[+]` for Advancing, `[_]` for Stable, `[-]` for Declining )
 
 ### Trade artifacts for additional ship endurance
 
-If the local world has a Networked culture, you may spend 2 artifacts `(__)` to buy 5 gigaseconds of endurance (one `<<>>` )
+If the local world has a Networked culture, you may spend 2 artifacts `[[]]` to buy 5 gigaseconds of endurance (one `<<>>` )
 
-If the local world has a Transcendent culture, you may spend 1 artifact `(__ )` to buy 10 gigaseconds of endurance (two `<<>>`‘s )
+If the local world has a Transcendent culture, you may spend 1 artifact `[[]]` to buy 10 gigaseconds of endurance (two `<<>>`‘s )
 
 ## Ending Conditions
 
