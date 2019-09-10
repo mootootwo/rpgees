@@ -9,28 +9,38 @@
 - Get caught within an event horizon
 
 a tabletop game for one or more
+
 created by Luke Miller (https://twitter.com/mootootwo)
+
+Original pamphlet at https://mootootwo.itch.io/fading-light
+
 Written for the 2019 #PamphletJam
+
 at https://itch.io/jam/pamphletjam
+
 And #mapemounde2019 at https://itch.io/jam/mapemounde2019 
   
 Part of the OMGAM project  at https://exposit.github.io/omgam/
 
 More at https://ktsink.blogspot.com/
+
 cc by-sa 4.0
+
 Noto Sans by Google, licensed under Apache 2.0
 
 ## Terms
 
-dF — Fudge die.  Six sided dice with equal sides labeled `[+]` ,  `[_]` , and  `[-]`
-Endurance —  Each `<<>>` represents 5 gigaseconds of lifetime or travel capability for your starship.
-Cultural Artifacts —  Each `[[]]` represents an object or information set produced by a culture.  It may be fungible or used to influence the direction of other cultures.
-Gigasecond —  A unit of time close to 30 years, or a unit of distance (light-gigaseconds) close to 10 parsecs.
+- **dF** — Fudge die.  Six sided dice with equal sides labeled `[+]` ,  `[_]` , and  `[-]`
+- **Endurance** —  Each `<<>>` represents 5 gigaseconds of lifetime or travel capability for your starship.
+- **Cultural Artifacts** —  Each `[[]]` represents an object or information set produced by a culture.  It may be fungible or used to influence the direction of other cultures.
+- **Gigasecond** —  A unit of time close to 30 years, or a unit of distance (light-gigaseconds) close to 10 parsecs.
 
 ## Map Setup
 
 There is an inhabited world present at the midpoint and at each edge of the map.
+
 For each of the other six spots on the map, roll 1dF.  
+
 On `[+]` there is an inhabited world present
 
 ## World Culture
