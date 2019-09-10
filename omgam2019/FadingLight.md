@@ -79,7 +79,7 @@ Choose another world on the map, and move your ship there.  Deduct one endurance
 
 Update the light lag of each world based on distance from the ship.  In the next steps, the update time in gigaseconds for each world will equal  (current lag - previous lag + travel time)
 
-###Update cultural level of the local world       —>
+### Update cultural level of the local world
 
 Roll dF to modify the cultural era, `[+]` increases and `[-]` decreases the level.  Sum:
 
@@ -92,7 +92,7 @@ If the final roll takes the cultural era above level 4, a singularity occurs whi
 
 If a singularity occurs at some time in the history of the world, you may collect 20 artifacts minus one for every gigasecond elapsed between the singularity and your ship’s arrival.
 
-### Collect news from other worlds    —>
+### Collect news from other worlds
 
 Use the same process to advance the history of other worlds,  up to the current light lag.
 
