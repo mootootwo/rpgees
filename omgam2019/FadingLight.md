@@ -73,7 +73,7 @@ For every 5 gigaseconds distance from your ship, there is equal lag to a world. 
 
 ### Move to new destination
 
-Choose another world on the map, and move your ship there.  Deduct one endurance <<>> for every 5 gigaseconds traveled.
+Choose another world on the map, and move your ship there.  Deduct one endurance `<<>>` for every 5 gigaseconds traveled.
 
 ### Advance time track
 
