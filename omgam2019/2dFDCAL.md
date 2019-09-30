@@ -126,4 +126,4 @@ Roll 4dF and spend up to one per turn:
 	09.[0][@][ ][ ][ ][#][#][ ][ ][ ][0]
 	10.[0][ ][@][ ][ ][#][#][ ][ ][ ][0]
 
-[2dFCAL](https://mootootwo.github.io/rpgees/omgam2019/2dFCAL) by [Luke Miller](https://twitter.com/mootootwo) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+[2dFCAL](https://mootootwo.github.io/rpgees/omgam2019/2dFDCAL) by [Luke Miller](https://twitter.com/mootootwo) is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
