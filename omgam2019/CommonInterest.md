@@ -40,4 +40,4 @@ A game of shared goals and competing interests
 	When the group disbands, meaning it has no remaining members, evaluate the group's progress.
 	
 
-If the group's progress is greater than or equal to twice the total number of players, the goal has been successfully achieved.  The margin describes the degree of success or failure.![image](https://user-images.githubusercontent.com/25321484/114842169-81b7d900-9dd0-11eb-8d7a-8d4c1d8b2b53.png)
+        If the group's progress is greater than or equal to twice the total number of players, the goal has been successfully achieved.  The margin describes the degree of success or failure.
